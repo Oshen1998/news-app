@@ -1,9 +1,7 @@
 # News app Demo 
 News App created using ReactJs
 
-### [Live Site](https://newsheadlinesreact.netlify.app/)
-
-![Screenshot](https://i.ibb.co/QvgBrv3/news-ss.png)
+![Screenshot](https://drive.google.com/drive/u/0/folders/1xa2zxgJ3_nKGYUsx-QYpuDDPV2eNouRW)
 
 # Installation
 
