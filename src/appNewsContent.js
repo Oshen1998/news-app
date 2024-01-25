@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import NewsCard from "./newsCard";
+import AppLoader from "./loader/appLoader";
 
 function AppNewsContent({ match, history, location }) {
   const [news, setNews] = useState([
@@ -117,21 +118,7 @@ function AppNewsContent({ match, history, location }) {
               );
             })}
           </div>
-        ) : (
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              height: "70vh",
-            }}
-          >
-            <div
-              className="spinner-grow text-dark"
-              style={{ width: "3rem", height: "3rem" }}
-            ></div>
-          </div>
-        )}
+        ) : (<AppLoader />)}
       </div>
     </div>
   );

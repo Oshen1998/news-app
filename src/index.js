@@ -13,7 +13,6 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import AppHeader from './appHeader';
 
 const Home = () => {
-    // return <Header />
     return <AppHeader />
 }
 
