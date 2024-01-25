@@ -1,0 +1,76 @@
+.main-container{
+  height: 100vh;
+}
+
+.appTitle {
+  text-align: center;
+}
+
+.appContentSection{
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+header {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 80px;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 72px;
+  margin-bottom: 20px;
+}
+
+.appSubHeading {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  border-bottom: 2px solid #2f2f2f;
+  border-top: 2px solid #2f2f2f;
+  padding: 12px 0 12px 0;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul.navList {
+  margin: 2px;
+  border: 2px solid #000;
+  border-right: 2px;
+  border-left: 0;
+  padding: 12px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.navList li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+ul.navList li a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+
+.list {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* news card related styles */
+.selectedCategory {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  border-bottom: 2px solid #2f2f2f;
+  border-top: 2px solid #2f2f2f;
+  padding: 12px 0 12px 0;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
